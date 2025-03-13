@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Image Viewer</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+
+<body>
+    <div id="welcome">
+        <h1>Welcome to the Interactive Image Viewer</h1>
+        <p>Follow the instructions below to navigate and interact with the image.</p>
+    </div>
+    <div id="instructions">
+        <p>Viewing the image: Press <strong>'v'</strong> to enter view image mode. A blurred version of the image will be displayed. Move your index finger in the camera view to see a clear area around the position indicator.</p>
+        <p>Performing zoom-in: Press <strong>'z'</strong> to enter zoom-in mode. The zoom level will be proportional to the distance between your thumb and index finger tips.</p>
+        <p>Finding persons: Press <strong>'p'</strong> to enter find persons mode. The person pointed at by your index finger will be displayed at a larger size.</p>
+        <p>Finding persons: Press <strong>'f'</strong> to enter find faces mode. The person' face pointed at by your index finger will be displayed at a larger size.</p>
+        <p>Exiting modes: Press <strong>'e'</strong> to exit from any special mode and return to the original image display.</p>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
